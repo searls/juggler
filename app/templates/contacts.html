@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <td>Date</td>
+    <td>Name</td>
+    <td>Actions</td>
+  </thead>
+  <tbody>
+    <tr ng-repeat="contact in contacts | orderBy:shouldBeContactedOn" add-temporal-highlighting>
+      <td>{{ shouldBeContactedOn(contact) | date: 'yyyy-MM-dd' }}</td>
+      <td>{{ contact.name }}</td>
+      <td>
+        <a href="mailto:{{ contact.email }}">Email!</a>
+      </td>
+    </tr>
+  </tbody>
+</table>

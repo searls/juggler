@@ -1,0 +1,22 @@
+{
+  "name": "juggler",
+  "title": "A stupid little Angular toy",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "Justin Searls",
+    "company": "test double"
+  },
+  "dependencies": {
+    "grunt-angular-templates": "0.3.8",
+    "grunt-ngmin": "~0.0.2",
+    "protractor": "~0.6.1",
+    "grunt": "~0.4.1",
+    "grunt-concat-sourcemap": "~0.3.0",
+    "lineman": ">=0.12"
+  },
+  "engines": {
+    "node": "~>0.10.5",
+    "npm": "~>1.2.18"
+  }
+}
